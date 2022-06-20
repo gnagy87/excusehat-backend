@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Excuse {
 
-	private String name;
-	private String excuse;
+	private String author;
+	private String title;
 
 }

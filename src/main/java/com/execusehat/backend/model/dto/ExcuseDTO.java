@@ -8,7 +8,7 @@ import lombok.Data;
 public class ExcuseDTO {
 
 	private final long id;
-	private final String name;
-	private final String excuse;
+	private final String title;
+	private final String author;
 
 }

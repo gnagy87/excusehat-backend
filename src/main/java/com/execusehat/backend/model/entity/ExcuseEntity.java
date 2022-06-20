@@ -22,7 +22,7 @@ public class ExcuseEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
-	private String name;
-	private String excuse;
+	private String title;
+	private String author;
 
 }
